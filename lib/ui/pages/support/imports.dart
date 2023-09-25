@@ -1,0 +1,23 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:grand_edu/models/after_model.dart';
+import 'package:grand_edu/models/al_model.dart';
+import 'package:grand_edu/models/student_model.dart';
+import 'package:grand_edu/models/support_model.dart';
+import 'package:grand_edu/services/auth_service.dart';
+import 'package:grand_edu/services/fb_service.dart';
+import 'package:grand_edu/utils/lan.dart';
+import 'package:provider/provider.dart';
+import 'package:intl/intl.dart';
+import '../../../models/reception_model.dart';
+import '../../../utils/def.dart';
+import '../../../utils/titles.dart';
+import '../../../utils/utils.dart';
+import '../login/constants.dart';
+import 'package:rounded_loading_button/rounded_loading_button.dart';
+
+part 'items.dart';
+part 'page.dart';
+part 'vm.dart';

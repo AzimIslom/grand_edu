@@ -1,0 +1,27 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:grand_edu/models/al_model.dart';
+import 'package:grand_edu/models/group_model.dart';
+import 'package:grand_edu/models/student_model.dart';
+import 'package:grand_edu/models/unit_model.dart';
+import 'package:grand_edu/services/fb_service.dart';
+import 'package:grand_edu/ui/details/theme/imports.dart';
+import 'package:grand_edu/ui/pages/login/constants.dart';
+import 'package:grand_edu/utils/lan.dart';
+import 'package:intl/intl.dart';
+import 'package:page_transition/page_transition.dart';
+import 'package:percent_indicator/linear_percent_indicator.dart';
+import 'package:provider/provider.dart';
+import 'package:fl_chart/fl_chart.dart';
+import '../../../models/shop_model.dart';
+import '../../../models/theme_model.dart';
+import '../../../services/auth_service.dart';
+import '../../../utils/def.dart';
+import '../../../utils/titles.dart';
+import '../../../utils/utils.dart';
+import '../themes/imports.dart';
+
+part 'items.dart';
+part 'page.dart';
+part 'vm.dart';
